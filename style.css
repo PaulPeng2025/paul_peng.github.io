@@ -1,7 +1,7 @@
 /* Colors and fonts */
 body {
-    background: #F7F9FC;
-    color: #575F7D;
+    background: #142629;
+    color: #142629;
     font-family: 'Lora', serif;
     font-size: 17px;
     font-weight: lighter;
@@ -59,7 +59,7 @@ a:hover {
 
 
 .card-white {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 40px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
     border-radius: 4px;
@@ -90,15 +90,20 @@ a:hover {
 }
 .list-inline i {
     font-size: 50px;
-    color: rgb(230, 230, 230);
+    color: #ad0c42;
 }
 .list-inline i:hover {
     color: black;
 }
 
 /* Design adjustments using id (1% design remaining) */
-#introduction p {
-    margin-bottom: 40px;
+body {
+    background-image: url("https://pbs.twimg.com/media/EX0pc4uWsAE6wJb.jpg:large");
+    /*height: 100px; !* You must set a specified height *!*/
+    /*background-position: center; !* Center the image *!*/
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /*background-blend-mode: lighten;*/
 }
 
 
